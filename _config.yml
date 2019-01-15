@@ -13,35 +13,34 @@ tagarray: []
 
 collections:
   project:
-    output: true
+    output: false
     permalink: /project/:path/
   snippet:
     output: true
-    permalink: /snippet/:path/
+    permalink: /snippets/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
+    - icon: fa-vk
+      link: "https://vk.com/g10kvs"
     - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
-    - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://twitter.com/g10kvs"
+    - icon: fa-instagram
+      link: "https://www.instagram.com/g10kvs/"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/g10k"
 
 share:
   twitter_username: agusmakmun6
   fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
+    - text: Обо мне
       url: /about/
     - text: My Projects
       url: /projects/
       hidden: true
-    - text: My snippets
+
+    - text: Snippets
       url: /snippets/
 
     - text: XML Feed
